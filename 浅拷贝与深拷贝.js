@@ -23,7 +23,7 @@ const deepClone = (obj, hash = new WeakMap()) => {
   //设置递归base case
   if (hash.get(obj)) return hash.get(obj);
   //创建拷贝对象，并将实参对象的构造函数指向拷贝对象
-  const cloneObj = new obj.constructor();
+  let cloneObj = new obj.constructor();
   //使用hash来记录，避免循环拷贝，栈溢出
   hash.set(obj, cloneObj);
   //递归循环拷贝
