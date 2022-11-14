@@ -7,3 +7,4 @@
 ## 目录
 
 - [深拷贝与浅拷贝](./%E6%B5%85%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B7%B1%E6%8B%B7%E8%B4%9D.js)
+- [手写 call、apply 和 bind](./%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.js)
